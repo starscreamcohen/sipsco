@@ -1,0 +1,218 @@
+@media screen and (min-width: 840px) {
+
+	
+
+	.logo {
+		clear: none;
+		float: left;
+
+	}
+
+	#nav-items { 
+		float: right;
+	}
+
+
+
+
+	#body-wrapper {
+		margin-top: 100px;
+	}
+	
+	.section {
+		height: 31.25em;		/* 500px / 16px */
+		padding: 1.5625em 0; 		/* 25px / 16px */
+	}
+
+	.section-head {
+		font-size: 2em;			/*32px / 16px */
+	}
+
+	/* Start Video Section */
+
+	iframe {
+		
+		width: 67.679661%;		/* 800px / 1180px = 67.679661% */
+		height: 450px;
+		margin-bottom: 100px;
+	}
+
+	/* End Video Section */
+	/* Start Form Section */
+
+
+	#client-form {
+		width: 100%;			/* 1180px / 1180px = 100% */
+	}
+
+	
+
+	#purchase {
+		width: 48.305085%; 		/* 570px / 1180px = 48.305085% */
+		max-width: 570px;
+		min-width: 500px;
+		margin-right: 1.694915%;
+		margin: 0 auto;
+
+	}
+		
+	#purchase input, #purchase label {
+		margin-left: 5px;
+	}
+
+	#purchase input {
+		margin-bottom: 5px;
+	}
+
+	.purchase-input, #location-wrapper {
+		width: 79.655272%;			/* 452px / 570px = 79.655272% */
+	}
+
+
+	#city-wrapper {				
+		width: 42.8097345327434%; 		/* 193.5px / 452px = 33.94736842195263%*/
+		margin-right: 5px;		
+	}
+
+	#state-wrapper {
+		width: 33.4070796460177%;		/* 151px / 452px = 26.49122897017544% */
+		margin-right: 5px;	
+	}
+
+	#zip-wrapper {
+		width: 21.46017699115044%;		/* 97px / 452px = 17.01754385964912%*/
+	}
+
+	#city, #state, #zipcode {
+		width: 100%;
+	}
+
+	#product div {
+		padding: 10px 25px 5px 0;
+	}
+
+	/* End Form Section */
+	/* Client Section */
+
+	.centered {			
+		margin: 0 auto;
+		text-align: center;
+	}
+
+
+	
+	.client {
+		height: 110px;
+		width: 110px;
+		max-width: 100%;
+		margin: 0 3.50877192982456% 0 0;		/* 20 / 570 = 3.50877192982456% */
+	}
+
+
+	/* End Client Section */
+	/* Start Team Section */
+
+	.team-gallery {
+		width: 100%;
+	}
+
+	.team {
+		height: 175px;
+		width: 175px;
+	}
+
+
+
+	/* End Team Section */
+
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:839px) {
+
+	.logo {
+		display: block;
+		width: 200px;
+		margin: 0 auto;
+	}
+
+	#nav-items {
+		display: block;
+		width: 31.25em;				/* 500px / 16px */
+		margin: 0 auto;
+	}
+
+	#body-wrapper {
+		margin-top: 84px;
+	}
+
+	.section {
+		padding: 4em 0; 
+	}
+
+	iframe {
+		width: 37.5em;				/* 600px / 16px */
+		height: 300px;
+				
+	}
+
+
+
+	#purchase {
+		width: 31.25em; 			/* 500px / 16px */
+	}
+
+	.purchase-input,  #purchase label {
+		margin-left: 1%; 			/* 5px / 500px */
+	}
+
+	.purchase-input {
+		width: 89.6%;		/* 448px / 500px */
+	}
+
+	#location-wrapper {
+		width: 89.6%;				/* 448px / 500px */
+		margin-left: 1%;
+	}
+
+	#city-wrapper {
+		width: 38.16964285714286%;		/* 171px / 448px */
+		margin-right: 1.11607142857143%; 	/* 5px / 448px */
+	}
+
+	#state-wrapper {
+		width: 37.94642857132857%;		/* 170px / 448px */
+		margin-right: 1.11607142857143%; 	/* 5px / 448px */
+	}
+
+	#zip-wrapper {
+		width: 21.65178571428571%;   	/* 97px / 448px */
+	}
+
+	#city, #state, #zipcode {
+		width: 100%;
+	}
+
+
+
+
+	.team {
+		width: 150px;
+		height: 150px;
+	}
+
+
+
+
+}
+
+/* iPhone Queries */
+
+@media only screen and (min-device-width:320px) and (max-device-width:568px){
+	
+	body {
+		width: 568px; 
+	}
+
+}
