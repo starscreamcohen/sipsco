@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS */
+
+nav div div {
+	background-color: ;
+}
+
+nav li {
+	font-size: 1.25em;		/* 20 / 16 */
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 800;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+nav li:hover, nav li:focus {
+	color: #FFD119;
+}
+
+.section-head {
+	font-size: 2em; 		/* 32 / 16 */
+	font-family: 'Arimo', Arial, sans-serif;
+	
+}
+
+/* Used on all Forms */
+
+
+input::-webkit-input-placeholder {
+	font-family: 'Arimo', Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+input::-moz-placeholder {
+	font-family: 'Arimo', Arial, sans-serif;
+	text-transform: uppercase;
+	
+}
+
+input:-moz-placeholder {
+	font-family: 'Arimo', Arial, sans-serif;
+	text-transform: uppercase;
+	
+}
+
+input:-ms-input-placeholder {
+	font-family: 'Arimo', Arial, sans-serif;
+	text-transform: uppercase;
+	
+}
+
+label, h3, span, input {
+	font-family: 'Arimo', Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+span {
+
+}
+
+.client-figure {
+	width: 125px;
+	height: 125px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.team-figure {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Nav Section */
+/* Top Header */
+
+#nav-head {
+	background-color: #33CCFF;
+	height: 100px;				/* Remove As Soon as I get the image for this. */
+	padding: 0 0 0 0;
+}
+
+
+/* Second Portion of Header */ 
+
+#nav-links {
+	height: 1.25em;
+	background-color: #165016;
+	padding: 0 0 .125em 0;					/* 2 / 16 */
+}
+
+#nav-links ul {
+	float: right;
+	margin-right: 1.25em;			/* 20 / 16 */ 
+}
+
+#nav-links ul li {
+	display: inline;
+	padding: 0 1.25em; 					/* 20 / 16 */
+}
+
+
+}
+
+#body-wrapper {
+	clear: both;
+}
+
+/* Tour & Video Section */
+
+#slicea {
+	padding: 3em 0;				/* 48 / 16 */
+}
+
+iframe {
+	display: block;
+	width: 53.3125em;			/* 853 / 16 */
+	height: 30em;				/* 480 / 16 */
+	margin: 0 auto; 
+}
+
