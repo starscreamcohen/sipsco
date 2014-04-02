@@ -49,9 +49,11 @@ table {
 
 /* Custom CSS */
 
-nav div div {
-	background-color: ;
+body {
+	font-size: 16px;
+	font-family: Arial, sans-serif;
 }
+
 
 nav li {
 	font-size: 1.25em;		/* 20 / 16 */
@@ -102,22 +104,15 @@ label, h3, span, input {
 	text-transform: uppercase;
 }
 
-span {
-
-}
 
 .client-figure {
-	width: 125px;
-	height: 125px;
-	border-radius: 100%;
+	width: 25%;
+	height: 25%;
+	border-radius: 50%;
 	overflow: hidden;
 }
 
-.team-figure {
-	width: 150px;
-	height: 150px;
-	overflow: hidden;
-}
+
 
 img {
 	max-width: 100%;
@@ -152,7 +147,7 @@ img {
 }
 
 
-}
+
 
 #body-wrapper {
 	clear: both;
@@ -170,4 +165,148 @@ iframe {
 	height: 30em;				/* 480 / 16 */
 	margin: 0 auto; 
 }
+
+/* Purhcase Form and Client Section */
+
+#sliceb {
+	width: 100%;
+	height: 31.25em;			/* 500 / 16 */
+	padding: 3em 0;
+	background-color: #99D6FF;
+}
+
+/* Client Information Part of the Form */
+
+#purchase {
+	float: left;
+	width: 38.46153946153846%;				/* 500 / 1300 */
+	margin: 0 05.76923076923077%;			/* 75 / 1300 */
+}
+
+
+#purchase input {
+	display: block;
+	height: 2em;				/* 32 / 16 */ 
+	margin-top: .3125em;		/* 5 / 16 */ 
+	margin-bottom: .3125em;			/* 5 / 16 */ 
+}
+
+.purchase-input {
+	width: 99%;									/* 495 / 500 */
+}
+
+.location {
+	float: left;
+}
+
+#city, #state {
+	width: 37.8%;						/* 189 / 500 */
+	margin-right: 2%;				/* 10 / 500 */
+}
+
+#zipcode {
+	width: 17.5%;				/* 87 / 500 */
+}
+
+/* Item Portion of the Purchase Form */
+
+#radio, #price-wrapper {
+	float: left;
+}
+
+#radio {
+	width: 50%;					/* 229 / 500 */
+	margin: 0 10% 0  0;				
+}
+
+#radio label, #radio input {
+	display: inline;
+}
+
+#radio input {
+	vertical-align: middle;
+}
+
+#price-wrapper {
+	width: 22.6%;				/* 113 / 500 */
+	padding: .125em 0;			/* 2 / 16 */
+}
+
+#price-wrapper label, #price-wrapper input {
+	display: inline;
+	line-height: 20px
+}
+
+#price-wrapper input {
+	width: 26.54867256637168%;			/* 30 / 113 */
+	height: 1.25em;
+}
+
+#price-wrapper h3 {
+	margin: .60em 0 0 0;
+}
+
+#radio input input {
+	float: right;
+}
+
+
+
+#client-wrapper {
+	float: right;
+	width: 38.46153946153846%;			/* 500 / 16 */
+	margin-right: 05.76923076923077%;	/* 75 / 1300 */
+}
+
+#client-wrapper .section-head {
+	text-align: center;
+	margin-bottom: .75em;
+}
+
+#client-wrapper div {
+	float: left;
+	margin: 0 0 0 6%;				/* 30 / 500 */
+}
+
+/* Start of the Team Section */
+
+#slicec {
+	height: 500px;
+	padding: 3em 0;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(bottom, #85FF5C 0%, #AAFF8D 50%, #FFFFFF 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(bottom, #85FF5C 0%, #AAFF8D 50%, #FFFFFF 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(bottom, #85FF5C 0%, #AAFF8D 50%, #FFFFFF 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #85FF5C), color-stop(0.5, #AAFF8D), color-stop(1, #FFFFFF));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(bottom, #85FF5C 0%, #AAFF8D 50%, #FFFFFF 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to top, #85FF5C 0%, #AAFF8D 50%, #FFFFFF 100%);
+}
+
+#slicec .section-head {
+	text-align: center;
+	margin-bottom: .75em;
+}
+
+.team-figure {
+	display: block;
+	float: left;
+	width: 15.38461538461538%;			/* 200 / 1300 */
+	margin-right: .76923076923077%;
+}
+
+.team-figure img {
+	max-height: 146px;
+}
+
+/* Email Newsletter Form */ 
+
+
+
+
+
 
