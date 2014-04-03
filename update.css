@@ -54,6 +54,10 @@ body {
 	font-family: Arial, sans-serif;
 }
 
+#body-wrapper {
+	min-width: 600px;
+}
+
 
 nav li {
 	font-size: 1.25em;		/* 20 / 16 */
@@ -102,6 +106,10 @@ input:-ms-input-placeholder {
 label, h3, span, input {
 	font-family: 'Arimo', Arial, sans-serif;
 	text-transform: uppercase;
+}
+
+input {
+	height: 2em;				/* 32 / 16 */ 
 }
 
 
@@ -186,7 +194,6 @@ iframe {
 
 #purchase input {
 	display: block;
-	height: 2em;				/* 32 / 16 */ 
 	margin-top: .3125em;		/* 5 / 16 */ 
 	margin-bottom: .3125em;			/* 5 / 16 */ 
 }
@@ -292,6 +299,11 @@ iframe {
 	margin-bottom: .75em;
 }
 
+#team-gallery {
+	width: 70%;
+	margin: 0 auto;
+}
+
 .team-figure {
 	display: block;
 	float: left;
@@ -304,6 +316,29 @@ iframe {
 }
 
 /* Email Newsletter Form */ 
+
+#sliced {
+	background-color: #FF9900;
+	height: 50px;
+	padding: 7.375em 0 2em 0;				/* 150 / 16 */
+}
+
+#sliced form {
+	margin: 0 0 0 45%;
+}
+
+#sliced input:first-child{
+	width: 60%;
+}
+
+#sliced input:nth-child(even){
+	height: 2.5em;						
+}
+
+footer {
+	height: 150px;
+	background-color: #7FCCFF;
+}
 
 
 
