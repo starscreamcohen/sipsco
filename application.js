@@ -8,4 +8,8 @@ $(document).ready(function(){
 		$('#total').text(price * quantity);
 
 });
+	$('.team-figure').on('mouseenter', 'img', function() {
+		$(this).find('.team-name').slideToggle();
+
+});
 });
