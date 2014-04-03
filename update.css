@@ -315,6 +315,13 @@ iframe {
 	max-height: 146px;
 }
 
+.team-figure p {
+	display: none;
+	padding: .5em 0;
+	text-align: center;
+	font-weight: 700;
+}
+
 /* Email Newsletter Form */ 
 
 #sliced {

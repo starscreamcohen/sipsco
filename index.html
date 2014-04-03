@@ -8,7 +8,8 @@
 		<link rel="stylesheet" href="update.css" type="text/css" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-
+		<script src="jquery-1.10.2.min.js"></script>
+		<script src="application.js"></script>
 	</head>
 	<body>
 	<div id="body-wrapper">
@@ -51,9 +52,9 @@
 								<div><label><input class="radio" type="radio" name="product" value="High Quality Dirt" checked />Sipsco High Quality Dirt</label></div>
 								<div><label><input class="radio" type="radio" name="product" value="Decking" />Decking</label></div>
 							</div>
-							<div id="price-wrapper">
-								<label>Blocks:<span> </span><input type="number" min="1" max="" step="1" value="1" /></label>
-								<h3>Price:<span> 100</span></h3>
+							<div id="price-wrapper" data-price="100">
+								<label>Blocks:<input class="quantity" type="number" min="1" max="" step="1" value="1" /></label>
+								<h3>Price: $<span id="total">100</span></h3>
 							</div>
 						</fieldset>
 						<input type="submit" value="Buy Dirt!" />
@@ -70,12 +71,12 @@
 				<section class="section" id="slicec">
 					<h2 class="section-head">Meet The Team</h2>
 					<div id="team-gallery"> 
-						<div class="team-figure"><img src="assets/images/sips.jpg" /></div>
-						<div class="team-figure"><img src="assets/images/sjin.png" /></div>
-						<div class="team-figure"><img src="assets/images/lewis.png" /></div>
-						<div class="team-figure"><img src="assets/images/Nilesy.png" /></div>
-						<div class="team-figure"><img src="assets/images/Rythian.png" /></div>
-						<div class="team-figure"><img src="assets/images/mintyminute.png" /></div>
+						<div class="team-figure"><img src="assets/images/sips.jpg" /><p class="team-name">Sips</p></div>
+						<div class="team-figure"><img src="assets/images/sjin.png" /><p class="team-name">Sjin</p></div>
+						<div class="team-figure"><img src="assets/images/lewis.png" /><p class="team-name">Lewis</p></div>
+						<div class="team-figure"><img src="assets/images/Nilesy.png" /><p class="team-name">Nilesy</p></div>
+						<div class="team-figure"><img src="assets/images/Rythian.png" /><p class="team-name">Rythian</p></div>
+						<div class="team-figure"><img src="assets/images/mintyminute.png" /><p class="team-name">MintyMinute</p></div>
 					</div>
 				</section>
 
@@ -90,6 +91,6 @@
 			<footer>
 				
 			</footer>
-		</div>	
+		</div>
 	</body>
 </html>
