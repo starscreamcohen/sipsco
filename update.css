@@ -177,14 +177,19 @@ img {
 	padding: 3em 0;				/* 48 / 16 */
 }
 
+.test {
+	width: 90%;
+	margin: 0 auto;
+}
+
 iframe {
 	display: block;
-	width: 53.3125em;			/* 853 / 16 */
+	width: 88.85416666666667%;			/* 853 / 16 */
 	height: 30em;				/* 480 / 16 */
 	margin: 0 auto; 
 }
 
-/* Purhcase Form and Client Section */
+/* Purchase Form and Client Section */
 
 #sliceb {
 	width: 100%;
@@ -289,7 +294,7 @@ iframe {
 /* Start of the Team Section */
 
 #slicec {
-	height: 500px;
+	height: 350px;
 	padding: 3em 0;
 	/* IE10 Consumer Preview */ 
 	background-image: -ms-linear-gradient(bottom, #85FF5C 0%, #AAFF8D 50%, #FFFFFF 100%);
@@ -368,7 +373,54 @@ footer {
 }
 
 
+@media screen and (max-width: 1086px) {
 
+	#location-wrapper {
+		width: 99%;
+	}	
+
+	.location {
+		float: none;
+	}
+
+	#city, #state, #zipcode {
+		width: 100%;
+	}
+
+	#team-gallery {
+		margin: 0 28%;
+	}
+
+	.team-figure {
+		width: 20%;
+	}
+
+	.fig-clear {
+		clear: left;
+	}
+
+}
+
+@media screen and (max-width: 917px) {
+
+	#sliceb {
+		padding-bottom: 15em;
+	}
+
+	#purchase {
+		float: none;
+		margin: 0 auto 3em;
+
+	}
+
+	#client-wrapper {
+		float: none;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+
+}
 
 
 
