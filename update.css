@@ -59,6 +59,7 @@ body {
 }
 
 
+
 nav li {
 	font-size: 1.25em;		/* 20 / 16 */
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -124,6 +125,7 @@ input {
 
 img {
 	max-width: 100%;
+	overflow: hidden;
 }
 
 /* Nav Section */
@@ -131,9 +133,15 @@ img {
 
 #nav-head {
 	background-color: #33CCFF;
-	height: 100px;				/* Remove As Soon as I get the image for this. */
+	height: 125px;				/* Remove As Soon as I get the image for this. */
 	padding: 0 0 0 0;
 }
+
+#nav-head img {
+	width: 45%;
+	height: auto;
+}
+
 
 
 /* Second Portion of Header */ 
@@ -164,6 +172,8 @@ img {
 /* Tour & Video Section */
 
 #slicea {
+	background: url(assets/images/BigGrassBlock.png);
+	background-size: 100%;
 	padding: 3em 0;				/* 48 / 16 */
 }
 
@@ -180,7 +190,8 @@ iframe {
 	width: 100%;
 	height: 31.25em;			/* 500 / 16 */
 	padding: 3em 0;
-	background-color: #99D6FF;
+	background: #99D6FF;
+
 }
 
 /* Client Information Part of the Form */
@@ -328,6 +339,15 @@ iframe {
 	background-color: #FF9900;
 	height: 50px;
 	padding: 7.375em 0 2em 0;				/* 150 / 16 */
+}
+
+#signup-img {
+	float: left;
+	width: 40%;
+}
+
+#signup-img img {
+	margin: -110px 0 5% 0;
 }
 
 #sliced form {
